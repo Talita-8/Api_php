@@ -31,7 +31,20 @@
             if($params1 == ""){
              echo json_encode($json[$path[0]]);
             } else {
-                echo 'Teste 1';
+                $encontrado = -1;
+                foreach($json[$path[0]] as $key => $obj){
+                    if($obj['id'] == $params1) {
+                        $encontrado = $key;
+                        break;
+                    }
+                }
+                if($encontrado >= 0) {
+                    echo json_encode($json[$path[0]][$encontrado]);
+                }
+                else {
+                    echo 'ERROR.';
+                    exit;
+                }
             }
         } else {
             echo '[]';

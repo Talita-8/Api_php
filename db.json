@@ -1,1 +1,1 @@
-{"series":[{"id":1,"name":"friends"},{"name":"Sweet Tooth","id":1624328132},{"name":"Rick and Morty","id":1624329707}],"genres":[]}
+{"series":{"1":{"name":"Sweet Tooth","id":"1624328132"},"2":{"name":"Rick and Morty","id":1624329707},"3":{"name":"Friends","id":1624497409},"4":{"name":"Better Call Saul","id":1624497886},"5":{"name":"Game of Thrones","id":1624497931}},"genres":[]}
